@@ -9,6 +9,7 @@ prevBtn.addEventListener('click', function() {
   galleryImgs[currentlySelected].classList.add("active");
   nextBtn.disabled = false;
 
+  
   if (currentlySelected === 0) {
     prevBtn.disabled = true;
   }
